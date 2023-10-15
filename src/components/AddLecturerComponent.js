@@ -50,9 +50,9 @@ const AddLecturerComponent = () => {
 
     const title = () => {
         if (id) {
-            return <h2 className="text-center">Update Employee</h2>;
+            return <h2 className="text-center">Update Lecturer</h2>;
         } else {
-            return <h2 className="text-center">Add Employee</h2>;
+            return <h2 className="text-center">Add Lecturer</h2>;
         }
     };
 
